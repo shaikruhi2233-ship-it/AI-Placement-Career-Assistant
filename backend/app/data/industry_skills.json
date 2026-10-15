@@ -1,0 +1,44 @@
+{
+  "Software Development Engineer": {
+    "technical_skills": ["python", "java", "data structures", "algorithms", "system design", "git", "sql", "rest api"],
+    "soft_skills": ["problem solving", "communication", "teamwork"],
+    "certifications": ["AWS Certified Developer", "Oracle Java Certification"],
+    "projects": ["Full-stack web application", "REST API with authentication", "Open-source contribution"],
+    "companies": ["TCS", "Infosys", "Amazon", "Microsoft", "Flipkart"]
+  },
+  "Data Analyst": {
+    "technical_skills": ["sql", "excel", "python", "pandas", "power bi", "tableau", "statistics"],
+    "soft_skills": ["communication", "attention to detail", "business acumen"],
+    "certifications": ["Google Data Analytics", "Microsoft Power BI Certification"],
+    "projects": ["Sales dashboard in Power BI", "EDA on a public dataset", "A/B testing case study"],
+    "companies": ["Deloitte", "Accenture", "EY", "Capgemini"]
+  },
+  "Machine Learning Engineer": {
+    "technical_skills": ["python", "scikit-learn", "tensorflow", "pytorch", "sql", "statistics", "mlops", "docker"],
+    "soft_skills": ["research mindset", "communication", "problem solving"],
+    "certifications": ["TensorFlow Developer Certificate", "AWS Machine Learning Specialty"],
+    "projects": ["End-to-end ML pipeline", "Model deployment with Docker/FastAPI", "Kaggle competition"],
+    "companies": ["Google", "NVIDIA", "Microsoft", "Fractal Analytics"]
+  },
+  "Full Stack Developer": {
+    "technical_skills": ["javascript", "react", "node.js", "html", "css", "sql", "rest api", "git"],
+    "soft_skills": ["communication", "teamwork", "time management"],
+    "certifications": ["Meta Front-End Developer", "Full Stack Open"],
+    "projects": ["E-commerce web app", "Real-time chat application", "Portfolio website with CMS"],
+    "companies": ["Zoho", "Freshworks", "Swiggy", "Razorpay"]
+  },
+  "DevOps Engineer": {
+    "technical_skills": ["linux", "docker", "kubernetes", "aws", "ci/cd", "terraform", "python", "bash"],
+    "soft_skills": ["problem solving", "collaboration", "adaptability"],
+    "certifications": ["AWS Certified DevOps Engineer", "Certified Kubernetes Administrator"],
+    "projects": ["CI/CD pipeline with GitHub Actions", "Kubernetes cluster deployment", "Infrastructure as Code with Terraform"],
+    "companies": ["Wipro", "Cognizant", "HCL", "IBM"]
+  },
+  "Business Analyst": {
+    "technical_skills": ["sql", "excel", "power bi", "jira", "requirement gathering", "process modeling"],
+    "soft_skills": ["communication", "stakeholder management", "critical thinking"],
+    "certifications": ["CBAP", "Certified ScrumMaster"],
+    "projects": ["Requirement documentation for a mock product", "Process improvement case study"],
+    "companies": ["Accenture", "TCS", "Genpact", "KPMG"]
+  }
+}

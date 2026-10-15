@@ -1,0 +1,150 @@
+{
+  "python": [
+    {"question": "Which keyword defines a function in Python?", "options": ["func", "def", "function", "lambda"], "correct_index": 1, "explanation": "Python functions are defined with the 'def' keyword."},
+    {"question": "What does len([1, 2, 3]) return?", "options": ["2", "3", "4", "Error"], "correct_index": 1, "explanation": "len() returns the number of elements in the list, which is 3."},
+    {"question": "Which data type is immutable in Python?", "options": ["list", "dict", "tuple", "set"], "correct_index": 2, "explanation": "Tuples are immutable; lists, dicts, and sets are mutable."}
+  ],
+  "sql": [
+    {"question": "Which SQL clause filters rows before grouping?", "options": ["HAVING", "WHERE", "GROUP BY", "ORDER BY"], "correct_index": 1, "explanation": "WHERE filters rows before GROUP BY; HAVING filters after grouping."},
+    {"question": "Which JOIN returns only matching rows from both tables?", "options": ["LEFT JOIN", "RIGHT JOIN", "INNER JOIN", "FULL JOIN"], "correct_index": 2, "explanation": "INNER JOIN returns only rows with matches in both tables."},
+    {"question": "Which keyword removes duplicate rows from a result set?", "options": ["UNIQUE", "DISTINCT", "FILTER", "ONLY"], "correct_index": 1, "explanation": "DISTINCT removes duplicate rows from the query result."}
+  ],
+  "java": [
+    {"question": "Which keyword is used to inherit a class in Java?", "options": ["implements", "extends", "inherits", "super"], "correct_index": 1, "explanation": "'extends' is used for class inheritance in Java."},
+    {"question": "What is the default value of a boolean instance variable in Java?", "options": ["true", "false", "0", "null"], "correct_index": 1, "explanation": "Uninitialized boolean fields default to false."},
+    {"question": "Which of these is NOT a Java access modifier?", "options": ["public", "private", "protected", "internal"], "correct_index": 3, "explanation": "'internal' is a C# modifier, not Java. Java uses public, private, protected, and default."}
+  ],
+  "javascript": [
+    {"question": "Which keyword declares a block-scoped variable in JavaScript?", "options": ["var", "let", "define", "int"], "correct_index": 1, "explanation": "'let' (and 'const') are block-scoped, unlike 'var' which is function-scoped."},
+    {"question": "What does '===' check in JavaScript?", "options": ["Value only", "Value and type", "Type only", "Reference only"], "correct_index": 1, "explanation": "'===' is strict equality, checking both value and type."},
+    {"question": "Which method converts a JSON string into a JS object?", "options": ["JSON.stringify()", "JSON.parse()", "Object.parse()", "JSON.toObject()"], "correct_index": 1, "explanation": "JSON.parse() converts a JSON string into a JavaScript object."}
+  ],
+  "react": [
+    {"question": "Which hook is used to manage state in a functional component?", "options": ["useEffect", "useState", "useRef", "useMemo"], "correct_index": 1, "explanation": "useState lets functional components hold local state."},
+    {"question": "What does JSX compile down to?", "options": ["HTML", "React.createElement calls", "CSS", "JSON"], "correct_index": 1, "explanation": "JSX is syntactic sugar for React.createElement() calls."},
+    {"question": "Which hook runs side effects after render?", "options": ["useState", "useEffect", "useContext", "useReducer"], "correct_index": 1, "explanation": "useEffect handles side effects like data fetching after render."}
+  ],
+  "node.js": [
+    {"question": "Which module system does Node.js use by default (CommonJS)?", "options": ["import/export", "require/module.exports", "include", "using"], "correct_index": 1, "explanation": "Node.js traditionally uses require()/module.exports (CommonJS)."},
+    {"question": "What does npm stand for?", "options": ["Node Package Manager", "New Project Module", "Node Program Manager", "Network Package Manager"], "correct_index": 0, "explanation": "npm stands for Node Package Manager."},
+    {"question": "Which Node.js module is used to create a web server?", "options": ["fs", "http", "path", "os"], "correct_index": 1, "explanation": "The built-in 'http' module is used to create web servers in Node.js."}
+  ],
+  "docker": [
+    {"question": "What file defines how a Docker image is built?", "options": ["docker.yml", "Dockerfile", "compose.json", "image.config"], "correct_index": 1, "explanation": "A Dockerfile contains instructions to build a Docker image."},
+    {"question": "Which command lists running containers?", "options": ["docker ps", "docker list", "docker show", "docker running"], "correct_index": 0, "explanation": "'docker ps' lists currently running containers."},
+    {"question": "What is the difference between a Docker image and a container?", "options": ["No difference", "Image is a running instance of a container", "Container is a running instance of an image", "Image only runs on Linux"], "correct_index": 2, "explanation": "A container is a running instance created from an image."}
+  ],
+  "kubernetes": [
+    {"question": "What is the smallest deployable unit in Kubernetes?", "options": ["Container", "Pod", "Node", "Cluster"], "correct_index": 1, "explanation": "A Pod is the smallest deployable unit, wrapping one or more containers."},
+    {"question": "Which Kubernetes object ensures a specified number of pod replicas are running?", "options": ["Service", "ConfigMap", "Deployment", "Namespace"], "correct_index": 2, "explanation": "A Deployment manages replica sets and ensures the desired pod count."},
+    {"question": "What is used to expose a set of pods as a network service?", "options": ["Volume", "Service", "Secret", "Ingress Controller only"], "correct_index": 1, "explanation": "A Kubernetes Service provides stable networking to access a set of pods."}
+  ],
+  "data structures": [
+    {"question": "Which data structure uses FIFO (First In First Out) order?", "options": ["Stack", "Queue", "Tree", "Graph"], "correct_index": 1, "explanation": "A Queue processes elements in First In First Out order."},
+    {"question": "What is the time complexity of searching in a balanced binary search tree?", "options": ["O(1)", "O(log n)", "O(n)", "O(n^2)"], "correct_index": 1, "explanation": "Balanced BSTs support O(log n) search due to their height."},
+    {"question": "Which structure is best for implementing undo functionality?", "options": ["Queue", "Stack", "Array", "Hash Map"], "correct_index": 1, "explanation": "A Stack (LIFO) naturally supports undo by popping the last action."}
+  ],
+  "algorithms": [
+    {"question": "What is the time complexity of binary search?", "options": ["O(n)", "O(log n)", "O(n log n)", "O(1)"], "correct_index": 1, "explanation": "Binary search halves the search space each step, giving O(log n)."},
+    {"question": "Which sorting algorithm has the best average-case time complexity?", "options": ["Bubble Sort", "Merge Sort", "Selection Sort", "Insertion Sort"], "correct_index": 1, "explanation": "Merge Sort runs in O(n log n) average and worst case."},
+    {"question": "Dynamic programming is most useful for problems with which property?", "options": ["Random inputs", "Overlapping subproblems", "No recursion", "Single pass only"], "correct_index": 1, "explanation": "DP optimizes problems with overlapping subproblems and optimal substructure."}
+  ],
+  "system design": [
+    {"question": "What technique splits a large database across multiple machines?", "options": ["Caching", "Sharding", "Load balancing", "Indexing"], "correct_index": 1, "explanation": "Sharding partitions data across multiple database instances."},
+    {"question": "What is the main purpose of a load balancer?", "options": ["Store data", "Distribute traffic across servers", "Encrypt data", "Compile code"], "correct_index": 1, "explanation": "A load balancer distributes incoming requests across multiple servers."},
+    {"question": "What does CAP theorem state a distributed system can guarantee at most two of?", "options": ["Cost, Availability, Performance", "Consistency, Availability, Partition tolerance", "Caching, API, Persistence", "Concurrency, Atomicity, Parallelism"], "correct_index": 1, "explanation": "CAP theorem: Consistency, Availability, and Partition tolerance — pick at most two."}
+  ],
+  "git": [
+    {"question": "Which command creates a new branch and switches to it?", "options": ["git branch -new", "git checkout -b", "git switch --create", "Both B and C"], "correct_index": 3, "explanation": "Both 'git checkout -b' and 'git switch -c' create and switch to a new branch."},
+    {"question": "What does 'git commit' do?", "options": ["Uploads code to GitHub", "Saves a snapshot of staged changes locally", "Deletes a branch", "Merges branches"], "correct_index": 1, "explanation": "git commit records a snapshot of staged changes to the local repo history."},
+    {"question": "Which command shows the commit history?", "options": ["git status", "git log", "git diff", "git show"], "correct_index": 1, "explanation": "git log displays the commit history."}
+  ],
+  "linux": [
+    {"question": "Which command lists files in a directory?", "options": ["dir", "ls", "list", "show"], "correct_index": 1, "explanation": "'ls' lists directory contents on Linux."},
+    {"question": "Which command changes file permissions?", "options": ["chperm", "chmod", "chown", "permit"], "correct_index": 1, "explanation": "chmod changes file/directory permissions in Linux."},
+    {"question": "Which command shows currently running processes?", "options": ["ps", "proc", "run", "jobs"], "correct_index": 0, "explanation": "'ps' displays information about running processes."}
+  ],
+  "aws": [
+    {"question": "Which AWS service provides object storage?", "options": ["EC2", "S3", "RDS", "Lambda"], "correct_index": 1, "explanation": "Amazon S3 is AWS's scalable object storage service."},
+    {"question": "Which AWS service lets you run code without managing servers?", "options": ["EC2", "S3", "Lambda", "VPC"], "correct_index": 2, "explanation": "AWS Lambda runs serverless functions without provisioning servers."},
+    {"question": "What does EC2 stand for?", "options": ["Elastic Compute Cloud", "Elastic Container Cluster", "External Compute Connector", "Enterprise Cloud Computing"], "correct_index": 0, "explanation": "EC2 stands for Elastic Compute Cloud, AWS's virtual server service."}
+  ],
+  "statistics": [
+    {"question": "Which measure of central tendency is most affected by outliers?", "options": ["Median", "Mode", "Mean", "Range"], "correct_index": 2, "explanation": "The mean is heavily influenced by extreme values/outliers."},
+    {"question": "What does a p-value less than 0.05 typically suggest?", "options": ["No effect exists", "Statistically significant result", "The sample is biased", "The test failed"], "correct_index": 1, "explanation": "A p-value below the common 0.05 threshold suggests a statistically significant result."},
+    {"question": "What does standard deviation measure?", "options": ["Central tendency", "Data spread/dispersion", "Correlation", "Sample size"], "correct_index": 1, "explanation": "Standard deviation measures how spread out data values are from the mean."}
+  ],
+  "excel": [
+    {"question": "Which function looks up a value in a table by matching a column?", "options": ["SUMIF", "VLOOKUP", "CONCAT", "COUNTA"], "correct_index": 1, "explanation": "VLOOKUP searches for a value in the first column and returns a value from another column."},
+    {"question": "Which feature summarizes and analyzes large datasets interactively?", "options": ["Conditional Formatting", "Pivot Table", "Data Validation", "Macro Recorder"], "correct_index": 1, "explanation": "Pivot Tables let you summarize and explore large datasets interactively."},
+    {"question": "What does the formula =SUM(A1:A10) do?", "options": ["Counts cells A1 to A10", "Adds the values in A1 to A10", "Averages A1 to A10", "Multiplies A1 to A10"], "correct_index": 1, "explanation": "SUM adds up all numeric values in the given range."}
+  ],
+  "power bi": [
+    {"question": "What language is used to write custom measures in Power BI?", "options": ["SQL", "DAX", "Python", "M"], "correct_index": 1, "explanation": "DAX (Data Analysis Expressions) is used for calculations and measures in Power BI."},
+    {"question": "What is used in Power BI to combine and transform data before loading?", "options": ["DAX", "Power Query", "Visual Filters", "Bookmarks"], "correct_index": 1, "explanation": "Power Query is the data transformation/ETL engine in Power BI."},
+    {"question": "Which visual is best for showing trends over time in Power BI?", "options": ["Pie chart", "Line chart", "Card", "Matrix"], "correct_index": 1, "explanation": "Line charts are ideal for visualizing trends over time."}
+  ],
+  "html": [
+    {"question": "Which tag is used to create a hyperlink?", "options": ["<link>", "<a>", "<href>", "<url>"], "correct_index": 1, "explanation": "The <a> tag with an href attribute creates a hyperlink."},
+    {"question": "Which tag defines the largest heading?", "options": ["<h6>", "<heading>", "<h1>", "<head>"], "correct_index": 2, "explanation": "<h1> is the largest/most important heading tag."},
+    {"question": "Which attribute specifies alternative text for an image?", "options": ["title", "alt", "src", "desc"], "correct_index": 1, "explanation": "The 'alt' attribute provides alternative text for images."}
+  ],
+  "css": [
+    {"question": "Which property changes text color?", "options": ["font-color", "text-color", "color", "background-color"], "correct_index": 2, "explanation": "The 'color' property sets the text color in CSS."},
+    {"question": "Which layout model is best for one-dimensional (row or column) layouts?", "options": ["Grid", "Flexbox", "Float", "Table"], "correct_index": 1, "explanation": "Flexbox is designed for one-dimensional layouts (row or column)."},
+    {"question": "What does 'box-sizing: border-box' do?", "options": ["Removes borders", "Includes padding and border in element's total width/height", "Adds a shadow", "Hides overflow"], "correct_index": 1, "explanation": "border-box includes padding and border within the specified width/height."}
+  ],
+  "rest api": [
+    {"question": "Which HTTP method is typically used to update an existing resource?", "options": ["GET", "POST", "PUT", "DELETE"], "correct_index": 2, "explanation": "PUT (or PATCH) is commonly used to update an existing resource."},
+    {"question": "Which HTTP status code means 'Not Found'?", "options": ["200", "301", "404", "500"], "correct_index": 2, "explanation": "404 indicates the requested resource was not found."},
+    {"question": "REST APIs are typically stateless. What does this mean?", "options": ["No data is stored anywhere", "Each request contains all info needed to process it", "The server crashes often", "Only GET requests are allowed"], "correct_index": 1, "explanation": "Statelessness means each request must contain all context needed; the server holds no client session state."}
+  ],
+  "pandas": [
+    {"question": "Which pandas function reads a CSV file into a DataFrame?", "options": ["pd.read_csv()", "pd.load_csv()", "pd.open_csv()", "pd.import_csv()"], "correct_index": 0, "explanation": "pd.read_csv() loads CSV data into a pandas DataFrame."},
+    {"question": "Which method returns summary statistics of a DataFrame?", "options": ["df.info()", "df.describe()", "df.summary()", "df.stats()"], "correct_index": 1, "explanation": "df.describe() returns count, mean, std, min/max, and percentiles."}
+  ],
+  "tensorflow": [
+    {"question": "What is the basic building block of computation in TensorFlow?", "options": ["List", "Tensor", "Array", "Matrix only"], "correct_index": 1, "explanation": "Tensors are the core data structure representing multi-dimensional arrays in TensorFlow."},
+    {"question": "Which TensorFlow API is commonly used to build neural networks easily?", "options": ["tf.data", "Keras", "tf.io", "tf.config"], "correct_index": 1, "explanation": "Keras (tf.keras) is the high-level API for building and training neural networks."}
+  ],
+  "pytorch": [
+    {"question": "What is the core data structure in PyTorch, similar to a NumPy array?", "options": ["Tensor", "Vector", "Frame", "Node"], "correct_index": 0, "explanation": "PyTorch Tensors are multi-dimensional arrays similar to NumPy arrays, with GPU support."},
+    {"question": "Which PyTorch feature automatically computes gradients?", "options": ["autograd", "autoscale", "autoload", "autonet"], "correct_index": 0, "explanation": "autograd is PyTorch's automatic differentiation engine used for backpropagation."}
+  ],
+  "scikit-learn": [
+    {"question": "Which scikit-learn method trains a model on data?", "options": ["model.train()", "model.fit()", "model.learn()", "model.run()"], "correct_index": 1, "explanation": "In scikit-learn, model.fit(X, y) trains the model on the given data."},
+    {"question": "Which function splits data into training and testing sets?", "options": ["train_test_split()", "split_data()", "cross_val()", "data_split()"], "correct_index": 0, "explanation": "train_test_split() from sklearn.model_selection splits data for training/testing."}
+  ],
+  "mlops": [
+    {"question": "What is the primary goal of MLOps?", "options": ["Faster UI design", "Reliably deploying and maintaining ML models in production", "Writing better SQL", "Designing databases"], "correct_index": 1, "explanation": "MLOps focuses on reliably deploying, monitoring, and maintaining ML models in production."},
+    {"question": "Which practice tracks different versions of trained models?", "options": ["Model versioning", "Load balancing", "Sharding", "Caching"], "correct_index": 0, "explanation": "Model versioning tracks and manages different iterations of trained ML models."}
+  ],
+  "ci/cd": [
+    {"question": "What does CI in CI/CD stand for?", "options": ["Code Integration", "Continuous Integration", "Container Installation", "Central Index"], "correct_index": 1, "explanation": "CI stands for Continuous Integration — frequently merging and testing code changes."},
+    {"question": "What is the main benefit of a CI/CD pipeline?", "options": ["Manual deployments only", "Automated build, test, and deployment", "Slower releases", "No testing needed"], "correct_index": 1, "explanation": "CI/CD automates building, testing, and deploying code changes reliably."}
+  ],
+  "bash": [
+    {"question": "Which symbol redirects command output to a file, overwriting it?", "options": ["|", ">", ">>", "&"], "correct_index": 1, "explanation": "'>' redirects output to a file, overwriting existing content."},
+    {"question": "What does the 'grep' command do?", "options": ["Deletes files", "Searches text using patterns", "Compresses files", "Changes permissions"], "correct_index": 1, "explanation": "grep searches input text for lines matching a pattern."}
+  ],
+  "terraform": [
+    {"question": "What is Terraform primarily used for?", "options": ["Writing unit tests", "Infrastructure as Code (provisioning cloud resources)", "Frontend styling", "Database queries"], "correct_index": 1, "explanation": "Terraform provisions and manages infrastructure using declarative configuration files."},
+    {"question": "Which command applies Terraform configuration changes?", "options": ["terraform run", "terraform apply", "terraform build", "terraform deploy"], "correct_index": 1, "explanation": "'terraform apply' executes the planned infrastructure changes."}
+  ],
+  "jira": [
+    {"question": "What is Jira primarily used for?", "options": ["Video editing", "Project and issue tracking", "Database hosting", "Image design"], "correct_index": 1, "explanation": "Jira is a project management tool for tracking issues, tasks, and sprints."},
+    {"question": "In Agile Jira boards, what does a 'sprint' represent?", "options": ["A single bug report", "A fixed time-boxed period of work", "A user account", "A type of ticket"], "correct_index": 1, "explanation": "A sprint is a fixed, time-boxed iteration of work in Agile methodology."}
+  ],
+  "process modeling": [
+    {"question": "What is the main purpose of process modeling in business analysis?", "options": ["Writing code", "Visually representing business workflows", "Designing logos", "Managing servers"], "correct_index": 1, "explanation": "Process modeling visually documents how business workflows/processes operate."},
+    {"question": "Which diagram type is commonly used for process modeling?", "options": ["ER Diagram", "BPMN", "Class Diagram", "Sequence Diagram"], "correct_index": 1, "explanation": "BPMN (Business Process Model and Notation) is a standard for process modeling."}
+  ],
+  "requirement gathering": [
+    {"question": "What is the main goal of requirement gathering?", "options": ["Writing final code", "Understanding what stakeholders need from a system", "Testing the deployed app", "Designing the database schema"], "correct_index": 1, "explanation": "Requirement gathering identifies and documents what stakeholders need from a system."},
+    {"question": "Which technique is commonly used to gather requirements from stakeholders?", "options": ["Code review", "Stakeholder interviews", "Load testing", "Database indexing"], "correct_index": 1, "explanation": "Interviews with stakeholders are a core technique for gathering requirements."}
+  ],
+  "tableau": [
+    {"question": "What is Tableau primarily used for?", "options": ["Data visualization and BI dashboards", "Writing backend APIs", "Mobile app development", "Database administration"], "correct_index": 0, "explanation": "Tableau is a data visualization and business intelligence tool."},
+    {"question": "What is a 'dashboard' in Tableau?", "options": ["A single data table", "A collection of visualizations combined in one view", "A type of database", "A coding script"], "correct_index": 1, "explanation": "A Tableau dashboard combines multiple visualizations/sheets into one interactive view."}
+  ]
+}

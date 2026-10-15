@@ -1,0 +1,20 @@
+{
+  "trending_technologies": [
+    {"name": "Generative AI / LLMs", "demand_index": 96, "growth": "+42% YoY"},
+    {"name": "Cloud Computing (AWS/Azure/GCP)", "demand_index": 91, "growth": "+18% YoY"},
+    {"name": "Data Engineering", "demand_index": 88, "growth": "+22% YoY"},
+    {"name": "Cybersecurity", "demand_index": 85, "growth": "+20% YoY"},
+    {"name": "DevOps & MLOps", "demand_index": 83, "growth": "+19% YoY"},
+    {"name": "React / Frontend Frameworks", "demand_index": 80, "growth": "+9% YoY"},
+    {"name": "Blockchain", "demand_index": 55, "growth": "+3% YoY"}
+  ],
+  "trending_roles": [
+    {"role": "AI/ML Engineer", "openings_index": 94},
+    {"role": "Data Engineer", "openings_index": 89},
+    {"role": "Full Stack Developer", "openings_index": 86},
+    {"role": "DevOps Engineer", "openings_index": 82},
+    {"role": "Cloud Architect", "openings_index": 78},
+    {"role": "Product Analyst", "openings_index": 70}
+  ],
+  "emerging_languages": ["Python", "Rust", "TypeScript", "Go", "Kotlin"]
+}
