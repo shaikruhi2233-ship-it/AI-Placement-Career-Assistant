@@ -1,0 +1,29 @@
+{
+  "MOOC Platforms": [
+    {"name": "Coursera", "url": "https://www.coursera.org", "description": "University-backed courses and professional certificates."},
+    {"name": "edX", "url": "https://www.edx.org", "description": "University courses including CS50 and MITx."},
+    {"name": "Udemy", "url": "https://www.udemy.com", "description": "Practical, project-based skill courses."},
+    {"name": "Udacity", "url": "https://www.udacity.com", "description": "Nanodegree programs in AI, cloud, and data."}
+  ],
+  "Coding Practice": [
+    {"name": "LeetCode", "url": "https://leetcode.com", "description": "DSA and interview coding practice with company tags."},
+    {"name": "HackerRank", "url": "https://www.hackerrank.com", "description": "Skill certifications and coding challenges."},
+    {"name": "Codeforces", "url": "https://codeforces.com", "description": "Competitive programming contests."},
+    {"name": "GeeksforGeeks", "url": "https://www.geeksforgeeks.org", "description": "DSA tutorials, articles, and practice problems."}
+  ],
+  "Certifications": [
+    {"name": "AWS Skill Builder", "url": "https://skillbuilder.aws", "description": "Official AWS certification training."},
+    {"name": "Google Cloud Skills Boost", "url": "https://www.cloudskillsboost.google", "description": "GCP hands-on labs and certifications."},
+    {"name": "Microsoft Learn", "url": "https://learn.microsoft.com", "description": "Azure and Microsoft 365 certification paths."}
+  ],
+  "Career & Interview Prep": [
+    {"name": "Glassdoor", "url": "https://www.glassdoor.com", "description": "Company reviews, salaries, and interview experiences."},
+    {"name": "Pramp", "url": "https://www.pramp.com", "description": "Free live peer-to-peer mock interviews."},
+    {"name": "InterviewBit", "url": "https://www.interviewbit.com", "description": "Interview-focused DSA practice and prep tracks."}
+  ],
+  "Documentation & Reference": [
+    {"name": "MDN Web Docs", "url": "https://developer.mozilla.org", "description": "Reference for HTML, CSS, and JavaScript."},
+    {"name": "Official Python Docs", "url": "https://docs.python.org/3/", "description": "Authoritative Python language reference."},
+    {"name": "Stack Overflow", "url": "https://stackoverflow.com", "description": "Community Q&A for debugging and best practices."}
+  ]
+}

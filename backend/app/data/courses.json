@@ -1,0 +1,21 @@
+{
+  "python": [{"title": "Python for Everybody", "provider": "Coursera"}],
+  "sql": [{"title": "SQL for Data Science", "provider": "Coursera"}],
+  "java": [{"title": "Java Programming Masterclass", "provider": "Udemy"}],
+  "react": [{"title": "React - The Complete Guide", "provider": "Udemy"}],
+  "node.js": [{"title": "Node.js Developer Course", "provider": "Udemy"}],
+  "aws": [{"title": "AWS Certified Cloud Practitioner", "provider": "AWS Training"}],
+  "docker": [{"title": "Docker & Kubernetes: The Practical Guide", "provider": "Udemy"}],
+  "kubernetes": [{"title": "Certified Kubernetes Administrator Prep", "provider": "Linux Foundation"}],
+  "tensorflow": [{"title": "TensorFlow Developer Professional Certificate", "provider": "Coursera"}],
+  "pytorch": [{"title": "Deep Learning with PyTorch", "provider": "Udacity"}],
+  "power bi": [{"title": "Microsoft Power BI Desktop for Analytics", "provider": "Udemy"}],
+  "excel": [{"title": "Excel Skills for Business", "provider": "Coursera"}],
+  "system design": [{"title": "Grokking the System Design Interview", "provider": "Educative"}],
+  "data structures": [{"title": "Data Structures and Algorithms Specialization", "provider": "Coursera"}],
+  "statistics": [{"title": "Statistics with Python Specialization", "provider": "Coursera"}],
+  "git": [{"title": "Git & GitHub Crash Course", "provider": "YouTube / freeCodeCamp"}],
+  "linux": [{"title": "Linux Command Line Basics", "provider": "Udacity"}],
+  "terraform": [{"title": "HashiCorp Certified: Terraform Associate", "provider": "HashiCorp Learn"}],
+  "ci/cd": [{"title": "CI/CD with GitHub Actions", "provider": "GitHub Learning Lab"}]
+}

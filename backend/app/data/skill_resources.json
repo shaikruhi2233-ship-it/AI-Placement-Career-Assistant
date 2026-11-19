@@ -1,0 +1,178 @@
+{
+  "python": {
+    "youtube": {"title": "Python Full Course for Beginners", "url": "https://www.youtube.com/results?search_query=python+full+course+for+beginners"},
+    "notes": {"title": "Python Notes - GeeksforGeeks", "url": "https://www.geeksforgeeks.org/python-programming-language/"},
+    "documentation": {"title": "Official Python Docs", "url": "https://docs.python.org/3/"},
+    "course": {"title": "Python for Everybody", "url": "https://www.coursera.org/specializations/python"},
+    "practice": {"title": "Python Practice - HackerRank", "url": "https://www.hackerrank.com/domains/python"},
+    "project": {"title": "Build a CLI expense tracker in Python", "url": "https://github.com/search?q=python+beginner+projects&type=repositories"}
+  },
+  "sql": {
+    "youtube": {"title": "SQL Full Course", "url": "https://www.youtube.com/results?search_query=sql+full+course"},
+    "notes": {"title": "SQL Notes - GeeksforGeeks", "url": "https://www.geeksforgeeks.org/sql-tutorial/"},
+    "documentation": {"title": "PostgreSQL Documentation", "url": "https://www.postgresql.org/docs/"},
+    "course": {"title": "SQL for Data Science", "url": "https://www.coursera.org/learn/sql-for-data-science"},
+    "practice": {"title": "SQL Practice - LeetCode", "url": "https://leetcode.com/studyplan/top-sql-50/"},
+    "project": {"title": "Design and query a mini e-commerce database", "url": "https://github.com/search?q=sql+mini+project&type=repositories"}
+  },
+  "java": {
+    "youtube": {"title": "Java Full Course", "url": "https://www.youtube.com/results?search_query=java+full+course"},
+    "notes": {"title": "Java Notes - GeeksforGeeks", "url": "https://www.geeksforgeeks.org/java/"},
+    "documentation": {"title": "Official Java Docs", "url": "https://docs.oracle.com/en/java/"},
+    "course": {"title": "Java Programming Masterclass", "url": "https://www.udemy.com/course/java-the-complete-java-developer-course/"},
+    "practice": {"title": "Java Practice - HackerRank", "url": "https://www.hackerrank.com/domains/java"},
+    "project": {"title": "Build a console-based banking system in Java", "url": "https://github.com/search?q=java+beginner+projects&type=repositories"}
+  },
+  "javascript": {
+    "youtube": {"title": "JavaScript Full Course", "url": "https://www.youtube.com/results?search_query=javascript+full+course"},
+    "notes": {"title": "JavaScript Notes - MDN", "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"},
+    "documentation": {"title": "MDN JavaScript Reference", "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"},
+    "course": {"title": "The Complete JavaScript Course", "url": "https://www.udemy.com/course/the-complete-javascript-course/"},
+    "practice": {"title": "JavaScript Practice - freeCodeCamp", "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/"},
+    "project": {"title": "Build a to-do list app with local storage", "url": "https://github.com/search?q=javascript+beginner+projects&type=repositories"}
+  },
+  "react": {
+    "youtube": {"title": "React JS Full Course", "url": "https://www.youtube.com/results?search_query=react+js+full+course"},
+    "notes": {"title": "React Notes - GeeksforGeeks", "url": "https://www.geeksforgeeks.org/reactjs-tutorials/"},
+    "documentation": {"title": "Official React Docs", "url": "https://react.dev/"},
+    "course": {"title": "React - The Complete Guide", "url": "https://www.udemy.com/course/react-the-complete-guide-incl-redux/"},
+    "practice": {"title": "React Coding Challenges", "url": "https://www.frontendmentor.io/"},
+    "project": {"title": "Build a portfolio site or a kanban board in React", "url": "https://github.com/search?q=react+beginner+projects&type=repositories"}
+  },
+  "node.js": {
+    "youtube": {"title": "Node.js Full Course", "url": "https://www.youtube.com/results?search_query=node+js+full+course"},
+    "notes": {"title": "Node.js Notes - GeeksforGeeks", "url": "https://www.geeksforgeeks.org/nodejs/"},
+    "documentation": {"title": "Official Node.js Docs", "url": "https://nodejs.org/en/docs"},
+    "course": {"title": "Node.js Developer Course", "url": "https://www.udemy.com/course/nodejs-the-complete-guide/"},
+    "practice": {"title": "Backend Practice - roadmap.sh", "url": "https://roadmap.sh/nodejs"},
+    "project": {"title": "Build a REST API with authentication", "url": "https://github.com/search?q=node.js+rest+api+project&type=repositories"}
+  },
+  "docker": {
+    "youtube": {"title": "Docker Full Course", "url": "https://www.youtube.com/results?search_query=docker+full+course"},
+    "notes": {"title": "Docker Notes - GeeksforGeeks", "url": "https://www.geeksforgeeks.org/docker-tutorial/"},
+    "documentation": {"title": "Official Docker Docs", "url": "https://docs.docker.com/"},
+    "course": {"title": "Docker & Kubernetes: The Practical Guide", "url": "https://www.udemy.com/course/docker-kubernetes-the-practical-guide/"},
+    "practice": {"title": "Play with Docker (sandbox)", "url": "https://labs.play-with-docker.com/"},
+    "project": {"title": "Containerize a FastAPI + SQLite app", "url": "https://github.com/search?q=docker+beginner+project&type=repositories"}
+  },
+  "kubernetes": {
+    "youtube": {"title": "Kubernetes Full Course", "url": "https://www.youtube.com/results?search_query=kubernetes+full+course"},
+    "notes": {"title": "Kubernetes Notes - GeeksforGeeks", "url": "https://www.geeksforgeeks.org/kubernetes-tutorial/"},
+    "documentation": {"title": "Official Kubernetes Docs", "url": "https://kubernetes.io/docs/home/"},
+    "course": {"title": "Certified Kubernetes Administrator Prep", "url": "https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/"},
+    "practice": {"title": "Kubernetes Playground", "url": "https://killercoda.com/playgrounds/scenario/kubernetes"},
+    "project": {"title": "Deploy a multi-service app to a local K8s cluster", "url": "https://github.com/search?q=kubernetes+beginner+project&type=repositories"}
+  },
+  "tensorflow": {
+    "youtube": {"title": "TensorFlow Full Course", "url": "https://www.youtube.com/results?search_query=tensorflow+full+course"},
+    "notes": {"title": "TensorFlow Notes - GeeksforGeeks", "url": "https://www.geeksforgeeks.org/introduction-to-tensorflow/"},
+    "documentation": {"title": "Official TensorFlow Docs", "url": "https://www.tensorflow.org/learn"},
+    "course": {"title": "TensorFlow Developer Professional Certificate", "url": "https://www.coursera.org/professional-certificates/tensorflow-in-practice"},
+    "practice": {"title": "TensorFlow Practice - Kaggle", "url": "https://www.kaggle.com/learn/intro-to-deep-learning"},
+    "project": {"title": "Train and deploy an image classifier", "url": "https://github.com/search?q=tensorflow+beginner+project&type=repositories"}
+  },
+  "pytorch": {
+    "youtube": {"title": "PyTorch Full Course", "url": "https://www.youtube.com/results?search_query=pytorch+full+course"},
+    "notes": {"title": "PyTorch Notes - GeeksforGeeks", "url": "https://www.geeksforgeeks.org/deep-learning/getting-started-with-pytorch/"},
+    "documentation": {"title": "Official PyTorch Docs", "url": "https://pytorch.org/docs/stable/index.html"},
+    "course": {"title": "Deep Learning with PyTorch", "url": "https://www.udacity.com/course/deep-learning-pytorch--ud188"},
+    "practice": {"title": "PyTorch Practice - Kaggle", "url": "https://www.kaggle.com/learn/intro-to-deep-learning"},
+    "project": {"title": "Build and deploy a PyTorch model with FastAPI", "url": "https://github.com/search?q=pytorch+beginner+project&type=repositories"}
+  },
+  "power bi": {
+    "youtube": {"title": "Power BI Full Course", "url": "https://www.youtube.com/results?search_query=power+bi+full+course"},
+    "notes": {"title": "Power BI Notes - GeeksforGeeks", "url": "https://www.geeksforgeeks.org/introduction-to-microsoft-power-bi/"},
+    "documentation": {"title": "Official Power BI Docs", "url": "https://learn.microsoft.com/en-us/power-bi/"},
+    "course": {"title": "Microsoft Power BI Desktop for Analytics", "url": "https://www.udemy.com/course/microsoft-power-bi-up-running-with-power-bi-desktop/"},
+    "practice": {"title": "Power BI Sample Datasets", "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/sample-datasets"},
+    "project": {"title": "Build a sales/HR analytics dashboard", "url": "https://github.com/search?q=power+bi+dashboard+project&type=repositories"}
+  },
+  "excel": {
+    "youtube": {"title": "Excel Full Course", "url": "https://www.youtube.com/results?search_query=excel+full+course+for+beginners"},
+    "notes": {"title": "Excel Notes - GeeksforGeeks", "url": "https://www.geeksforgeeks.org/microsoft-excel-tutorial/"},
+    "documentation": {"title": "Microsoft Excel Support", "url": "https://support.microsoft.com/en-us/excel"},
+    "course": {"title": "Excel Skills for Business", "url": "https://www.coursera.org/specializations/excel"},
+    "practice": {"title": "ExcelJet Practice Exercises", "url": "https://exceljet.net/challenges"},
+    "project": {"title": "Build a budget tracker with pivot tables", "url": "https://github.com/search?q=excel+dashboard+project&type=repositories"}
+  },
+  "system design": {
+    "youtube": {"title": "System Design Full Course", "url": "https://www.youtube.com/results?search_query=system+design+interview+course"},
+    "notes": {"title": "System Design Notes - GeeksforGeeks", "url": "https://www.geeksforgeeks.org/system-design-tutorial/"},
+    "documentation": {"title": "System Design Primer", "url": "https://github.com/donnemartin/system-design-primer"},
+    "course": {"title": "Grokking the System Design Interview", "url": "https://www.educative.io/courses/grokking-the-system-design-interview"},
+    "practice": {"title": "System Design Practice Questions", "url": "https://www.geeksforgeeks.org/most-commonly-asked-system-design-interview-problems-questions/"},
+    "project": {"title": "Design a URL shortener end-to-end", "url": "https://github.com/search?q=system+design+project&type=repositories"}
+  },
+  "data structures": {
+    "youtube": {"title": "DSA Full Course", "url": "https://www.youtube.com/results?search_query=data+structures+and+algorithms+full+course"},
+    "notes": {"title": "DSA Notes - GeeksforGeeks", "url": "https://www.geeksforgeeks.org/data-structures/"},
+    "documentation": {"title": "Python collections module docs", "url": "https://docs.python.org/3/library/collections.html"},
+    "course": {"title": "Data Structures and Algorithms Specialization", "url": "https://www.coursera.org/specializations/data-structures-algorithms"},
+    "practice": {"title": "DSA Practice - LeetCode", "url": "https://leetcode.com/problemset/all/"},
+    "project": {"title": "Implement a custom LRU cache and visualizer", "url": "https://github.com/search?q=data+structures+project&type=repositories"}
+  },
+  "statistics": {
+    "youtube": {"title": "Statistics Full Course", "url": "https://www.youtube.com/results?search_query=statistics+for+data+science+full+course"},
+    "notes": {"title": "Statistics Notes - GeeksforGeeks", "url": "https://www.geeksforgeeks.org/statistics-for-machine-learning/"},
+    "documentation": {"title": "SciPy Stats Docs", "url": "https://docs.scipy.org/doc/scipy/reference/stats.html"},
+    "course": {"title": "Statistics with Python Specialization", "url": "https://www.coursera.org/specializations/statistics-with-python"},
+    "practice": {"title": "Statistics Practice - Khan Academy", "url": "https://www.khanacademy.org/math/statistics-probability"},
+    "project": {"title": "Run an A/B testing case study on sample data", "url": "https://github.com/search?q=statistics+project&type=repositories"}
+  },
+  "git": {
+    "youtube": {"title": "Git & GitHub Crash Course", "url": "https://www.youtube.com/results?search_query=git+and+github+crash+course"},
+    "notes": {"title": "Git Notes - GeeksforGeeks", "url": "https://www.geeksforgeeks.org/git-tutorial/"},
+    "documentation": {"title": "Official Git Docs", "url": "https://git-scm.com/doc"},
+    "course": {"title": "Version Control with Git", "url": "https://www.coursera.org/learn/version-control-with-git"},
+    "practice": {"title": "Learn Git Branching (interactive)", "url": "https://learngitbranching.js.org/"},
+    "project": {"title": "Contribute a small PR to an open-source repo", "url": "https://github.com/explore"}
+  },
+  "linux": {
+    "youtube": {"title": "Linux Full Course", "url": "https://www.youtube.com/results?search_query=linux+full+course+for+beginners"},
+    "notes": {"title": "Linux Notes - GeeksforGeeks", "url": "https://www.geeksforgeeks.org/linux-tutorial/"},
+    "documentation": {"title": "Linux man pages online", "url": "https://man7.org/linux/man-pages/"},
+    "course": {"title": "Linux Command Line Basics", "url": "https://www.udacity.com/course/linux-command-line-basics--ud595"},
+    "practice": {"title": "OverTheWire Bandit (shell practice)", "url": "https://overthewire.org/wargames/bandit/"},
+    "project": {"title": "Write shell scripts to automate a backup routine", "url": "https://github.com/search?q=linux+shell+scripting+project&type=repositories"}
+  },
+  "aws": {
+    "youtube": {"title": "AWS Full Course", "url": "https://www.youtube.com/results?search_query=aws+full+course+for+beginners"},
+    "notes": {"title": "AWS Notes - GeeksforGeeks", "url": "https://www.geeksforgeeks.org/aws-tutorial/"},
+    "documentation": {"title": "Official AWS Docs", "url": "https://docs.aws.amazon.com/"},
+    "course": {"title": "AWS Certified Cloud Practitioner", "url": "https://aws.amazon.com/certification/certified-cloud-practitioner/"},
+    "practice": {"title": "AWS Free Tier Hands-on Labs", "url": "https://aws.amazon.com/free/"},
+    "project": {"title": "Host a static site on S3 + CloudFront", "url": "https://github.com/search?q=aws+beginner+project&type=repositories"}
+  },
+  "html": {
+    "youtube": {"title": "HTML Full Course", "url": "https://www.youtube.com/results?search_query=html+full+course+for+beginners"},
+    "notes": {"title": "HTML Notes - MDN", "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"},
+    "documentation": {"title": "MDN HTML Reference", "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"},
+    "course": {"title": "Responsive Web Design", "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/"},
+    "practice": {"title": "HTML Practice - freeCodeCamp", "url": "https://www.freecodecamp.org/learn/"},
+    "project": {"title": "Build a personal portfolio landing page", "url": "https://github.com/search?q=html+css+portfolio+project&type=repositories"}
+  },
+  "css": {
+    "youtube": {"title": "CSS Full Course", "url": "https://www.youtube.com/results?search_query=css+full+course+for+beginners"},
+    "notes": {"title": "CSS Notes - MDN", "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"},
+    "documentation": {"title": "MDN CSS Reference", "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"},
+    "course": {"title": "CSS Flexbox and Grid", "url": "https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass/"},
+    "practice": {"title": "CSS Practice - Flexbox Froggy", "url": "https://flexboxfroggy.com/"},
+    "project": {"title": "Recreate a well-known landing page in CSS", "url": "https://github.com/search?q=css+clone+project&type=repositories"}
+  },
+  "machine learning": {
+    "youtube": {"title": "Machine Learning Full Course", "url": "https://www.youtube.com/results?search_query=machine+learning+full+course"},
+    "notes": {"title": "Machine Learning Notes - GeeksforGeeks", "url": "https://www.geeksforgeeks.org/machine-learning/"},
+    "documentation": {"title": "scikit-learn User Guide", "url": "https://scikit-learn.org/stable/user_guide.html"},
+    "course": {"title": "Machine Learning Specialization", "url": "https://www.coursera.org/specializations/machine-learning-introduction"},
+    "practice": {"title": "ML Practice - Kaggle Competitions", "url": "https://www.kaggle.com/competitions"},
+    "project": {"title": "End-to-end ML pipeline with deployment", "url": "https://github.com/search?q=machine+learning+project&type=repositories"}
+  },
+  "mlops": {
+    "youtube": {"title": "MLOps Full Course", "url": "https://www.youtube.com/results?search_query=mlops+full+course"},
+    "notes": {"title": "MLOps Notes - GeeksforGeeks", "url": "https://www.geeksforgeeks.org/mlops/"},
+    "documentation": {"title": "MLflow Docs", "url": "https://mlflow.org/docs/latest/index.html"},
+    "course": {"title": "MLOps Specialization", "url": "https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops"},
+    "practice": {"title": "MLOps Zoomcamp (self-paced)", "url": "https://github.com/DataTalksClub/mlops-zoomcamp"},
+    "project": {"title": "Deploy a model with a CI/CD pipeline and monitoring", "url": "https://github.com/search?q=mlops+project&type=repositories"}
+  }
+}

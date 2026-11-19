@@ -1,0 +1,67 @@
+{
+  "easy": [
+    {
+      "id": "sum_two_numbers",
+      "title": "Sum of Two Numbers",
+      "difficulty": "easy",
+      "description": "Read two integers from input (one per line) and print their sum.",
+      "starter_code": "a = int(input())\nb = int(input())\n# write your code below\n",
+      "test_cases": [
+        {"input": "2\n3\n", "expected_output": "5"},
+        {"input": "10\n-4\n", "expected_output": "6"},
+        {"input": "0\n0\n", "expected_output": "0"}
+      ]
+    },
+    {
+      "id": "reverse_string",
+      "title": "Reverse a String",
+      "difficulty": "easy",
+      "description": "Read a string and print it reversed.",
+      "starter_code": "s = input()\n# write your code below\n",
+      "test_cases": [
+        {"input": "hello\n", "expected_output": "olleh"},
+        {"input": "abcd\n", "expected_output": "dcba"}
+      ]
+    }
+  ],
+  "medium": [
+    {
+      "id": "is_prime",
+      "title": "Prime Number Check",
+      "difficulty": "medium",
+      "description": "Read an integer n. Print 'Yes' if n is prime, otherwise print 'No'.",
+      "starter_code": "n = int(input())\n# write your code below\n",
+      "test_cases": [
+        {"input": "7\n", "expected_output": "Yes"},
+        {"input": "10\n", "expected_output": "No"},
+        {"input": "2\n", "expected_output": "Yes"},
+        {"input": "1\n", "expected_output": "No"}
+      ]
+    },
+    {
+      "id": "fibonacci_n",
+      "title": "Nth Fibonacci Number",
+      "difficulty": "medium",
+      "description": "Read an integer n (0-indexed). Print the nth Fibonacci number (0, 1, 1, 2, 3, 5, ...).",
+      "starter_code": "n = int(input())\n# write your code below\n",
+      "test_cases": [
+        {"input": "0\n", "expected_output": "0"},
+        {"input": "1\n", "expected_output": "1"},
+        {"input": "6\n", "expected_output": "8"}
+      ]
+    }
+  ],
+  "hard": [
+    {
+      "id": "two_sum_indices",
+      "title": "Two Sum — Indices",
+      "difficulty": "hard",
+      "description": "Read n, then n space-separated integers, then a target integer. Print the two 0-based indices (space separated, smaller first) whose values sum to target. Assume exactly one solution exists.",
+      "starter_code": "n = int(input())\narr = list(map(int, input().split()))\ntarget = int(input())\n# write your code below\n",
+      "test_cases": [
+        {"input": "4\n2 7 11 15\n9\n", "expected_output": "0 1"},
+        {"input": "3\n3 2 4\n6\n", "expected_output": "1 2"}
+      ]
+    }
+  ]
+}

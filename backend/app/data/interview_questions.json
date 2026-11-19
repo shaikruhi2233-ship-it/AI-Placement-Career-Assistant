@@ -1,0 +1,19 @@
+{
+  "technical": [
+    {"question": "Explain the difference between a list and a tuple in Python.", "keywords": ["mutable", "immutable", "list", "tuple"]},
+    {"question": "What is the time complexity of binary search?", "keywords": ["log n", "o(log n)", "sorted"]},
+    {"question": "Explain normalization in databases.", "keywords": ["redundancy", "normal form", "database", "dependency"]},
+    {"question": "What is the difference between REST and GraphQL?", "keywords": ["endpoint", "query", "over-fetching", "rest"]}
+  ],
+  "hr": [
+    {"question": "Tell us about yourself.", "keywords": ["strength", "experience", "goal", "background"]},
+    {"question": "Why should we hire you?", "keywords": ["skill", "value", "team", "contribute"]},
+    {"question": "Describe a challenge you faced and how you overcame it.", "keywords": ["challenge", "solution", "learned", "team"]},
+    {"question": "Where do you see yourself in five years?", "keywords": ["growth", "goal", "career", "learn"]}
+  ],
+  "coding": [
+    {"question": "Write pseudocode to reverse a linked list.", "keywords": ["node", "pointer", "next", "reverse"]},
+    {"question": "How would you detect a cycle in a graph?", "keywords": ["dfs", "visited", "cycle", "graph"]},
+    {"question": "Explain your approach to find the two largest numbers in an array.", "keywords": ["array", "sort", "compare", "max"]}
+  ]
+}

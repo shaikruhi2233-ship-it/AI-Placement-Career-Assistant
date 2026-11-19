@@ -1,0 +1,182 @@
+{
+  "Software Development Engineer": [
+    {
+      "company": "Amazon",
+      "location": "Hyderabad, India",
+      "job_type": "Full-time",
+      "required_skills": ["python", "java", "data structures", "algorithms", "system design"],
+      "apply_link": "https://www.amazon.jobs/en/teams/software-development"
+    },
+    {
+      "company": "Microsoft",
+      "location": "Bengaluru, India",
+      "job_type": "Full-time",
+      "required_skills": ["java", "data structures", "algorithms", "git", "rest api"],
+      "apply_link": "https://careers.microsoft.com/students/us/en/job/software-engineer"
+    },
+    {
+      "company": "TCS",
+      "location": "Chennai, India",
+      "job_type": "Full-time",
+      "required_skills": ["python", "sql", "git", "rest api"],
+      "apply_link": "https://www.tcs.com/careers"
+    },
+    {
+      "company": "Flipkart",
+      "location": "Bengaluru, India",
+      "job_type": "Internship",
+      "required_skills": ["python", "data structures", "algorithms"],
+      "apply_link": "https://www.flipkartcareers.com/"
+    }
+  ],
+  "Data Analyst": [
+    {
+      "company": "Deloitte",
+      "location": "Gurugram, India",
+      "job_type": "Full-time",
+      "required_skills": ["sql", "excel", "power bi", "statistics"],
+      "apply_link": "https://www2.deloitte.com/global/en/careers.html"
+    },
+    {
+      "company": "Accenture",
+      "location": "Pune, India",
+      "job_type": "Full-time",
+      "required_skills": ["sql", "python", "pandas", "tableau"],
+      "apply_link": "https://www.accenture.com/in-en/careers"
+    },
+    {
+      "company": "EY",
+      "location": "Bengaluru, India",
+      "job_type": "Internship",
+      "required_skills": ["excel", "sql", "power bi"],
+      "apply_link": "https://www.ey.com/en_in/careers"
+    },
+    {
+      "company": "Capgemini",
+      "location": "Mumbai, India",
+      "job_type": "Full-time",
+      "required_skills": ["sql", "python", "statistics"],
+      "apply_link": "https://www.capgemini.com/careers/"
+    }
+  ],
+  "Machine Learning Engineer": [
+    {
+      "company": "Google",
+      "location": "Bengaluru, India",
+      "job_type": "Full-time",
+      "required_skills": ["python", "scikit-learn", "tensorflow", "statistics"],
+      "apply_link": "https://careers.google.com/jobs/results/"
+    },
+    {
+      "company": "NVIDIA",
+      "location": "Hyderabad, India",
+      "job_type": "Full-time",
+      "required_skills": ["python", "pytorch", "sql", "mlops"],
+      "apply_link": "https://www.nvidia.com/en-us/about-nvidia/careers/"
+    },
+    {
+      "company": "Fractal Analytics",
+      "location": "Mumbai, India",
+      "job_type": "Full-time",
+      "required_skills": ["python", "scikit-learn", "statistics", "docker"],
+      "apply_link": "https://fractal.ai/careers/"
+    },
+    {
+      "company": "Microsoft",
+      "location": "Hyderabad, India",
+      "job_type": "Internship",
+      "required_skills": ["python", "tensorflow", "pytorch"],
+      "apply_link": "https://careers.microsoft.com/students/us/en/job/data-and-applied-scientist"
+    }
+  ],
+  "Full Stack Developer": [
+    {
+      "company": "Zoho",
+      "location": "Chennai, India",
+      "job_type": "Full-time",
+      "required_skills": ["javascript", "react", "node.js", "sql"],
+      "apply_link": "https://www.zoho.com/careers/"
+    },
+    {
+      "company": "Freshworks",
+      "location": "Chennai, India",
+      "job_type": "Full-time",
+      "required_skills": ["javascript", "react", "rest api", "git"],
+      "apply_link": "https://www.freshworks.com/company/careers/"
+    },
+    {
+      "company": "Swiggy",
+      "location": "Bengaluru, India",
+      "job_type": "Full-time",
+      "required_skills": ["javascript", "node.js", "html", "css"],
+      "apply_link": "https://careers.swiggy.com/"
+    },
+    {
+      "company": "Razorpay",
+      "location": "Bengaluru, India",
+      "job_type": "Internship",
+      "required_skills": ["react", "javascript", "rest api"],
+      "apply_link": "https://razorpay.com/jobs/"
+    }
+  ],
+  "DevOps Engineer": [
+    {
+      "company": "IBM",
+      "location": "Bengaluru, India",
+      "job_type": "Full-time",
+      "required_skills": ["linux", "docker", "kubernetes", "ci/cd"],
+      "apply_link": "https://www.ibm.com/in-en/careers"
+    },
+    {
+      "company": "Cognizant",
+      "location": "Pune, India",
+      "job_type": "Full-time",
+      "required_skills": ["aws", "docker", "terraform", "bash"],
+      "apply_link": "https://careers.cognizant.com/"
+    },
+    {
+      "company": "Wipro",
+      "location": "Hyderabad, India",
+      "job_type": "Full-time",
+      "required_skills": ["linux", "kubernetes", "aws", "python"],
+      "apply_link": "https://careers.wipro.com/"
+    },
+    {
+      "company": "HCL",
+      "location": "Noida, India",
+      "job_type": "Internship",
+      "required_skills": ["docker", "linux", "ci/cd"],
+      "apply_link": "https://www.hcltech.com/careers"
+    }
+  ],
+  "Business Analyst": [
+    {
+      "company": "Accenture",
+      "location": "Bengaluru, India",
+      "job_type": "Full-time",
+      "required_skills": ["sql", "excel", "requirement gathering"],
+      "apply_link": "https://www.accenture.com/in-en/careers"
+    },
+    {
+      "company": "TCS",
+      "location": "Kolkata, India",
+      "job_type": "Full-time",
+      "required_skills": ["excel", "power bi", "process modeling"],
+      "apply_link": "https://www.tcs.com/careers"
+    },
+    {
+      "company": "Genpact",
+      "location": "Gurugram, India",
+      "job_type": "Full-time",
+      "required_skills": ["sql", "jira", "requirement gathering"],
+      "apply_link": "https://www.genpact.com/careers"
+    },
+    {
+      "company": "KPMG",
+      "location": "Mumbai, India",
+      "job_type": "Internship",
+      "required_skills": ["excel", "power bi"],
+      "apply_link": "https://www.kpmg.com/in/en/careers.html"
+    }
+  ]
+}

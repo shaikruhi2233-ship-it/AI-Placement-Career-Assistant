@@ -1,0 +1,193 @@
+[
+  {
+    "intent": "greeting",
+    "patterns": [
+      "hi",
+      "hello",
+      "hey",
+      "good morning",
+      "good evening",
+      "hi there",
+      "hello assistant",
+      "hey bot",
+      "good afternoon",
+      "namaste",
+      "hai"
+    ],
+    "responses": [
+      "Hi! I'm your AI Career Assistant. Ask me about resumes, skill gaps, interviews, or placement readiness."
+    ]
+  },
+  {
+    "intent": "resume_help",
+    "patterns": [
+      "resume",
+      "cv",
+      "ats",
+      "keyword",
+      "resume score",
+      "how is my resume",
+      "check my resume",
+      "what is my ats score",
+      "improve my resume",
+      "resume tips",
+      "is my cv good",
+      "how to make my resume ats friendly",
+      "which keywords are missing in my resume",
+      "resume feedback"
+    ],
+    "responses": [
+      "Upload your resume in the 'Resume & ATS' section \u2014 I'll extract your skills automatically and score ATS compatibility against your target role. Aim for including exact keywords from the job description, quantified achievements, and a clean single-column layout."
+    ]
+  },
+  {
+    "intent": "skill_gap",
+    "patterns": [
+      "skill gap",
+      "missing skill",
+      "what should i learn",
+      "skills needed",
+      "what skills am i missing",
+      "which skills should i learn for full stack developer",
+      "skills required for data analyst",
+      "what do i need to learn to become a software engineer",
+      "gap in my skills",
+      "what am i lacking for this role",
+      "skill gap for devops"
+    ],
+    "responses": [
+      "Check the 'Skill Gap Analysis' page \u2014 pick your target role and I'll show exactly which technical and soft skills you're missing, plus recommended certifications and projects to close the gap."
+    ]
+  },
+  {
+    "intent": "interview_prep",
+    "patterns": [
+      "interview",
+      "mock interview",
+      "hr questions",
+      "technical interview",
+      "coding interview",
+      "how to prepare for interview",
+      "common hr interview questions",
+      "tips for technical round",
+      "practice interview",
+      "how do i answer tell me about yourself",
+      "coding round preparation",
+      "group discussion tips",
+      "interview tips",
+      "hr round tips",
+      "tips for interview",
+      "how to crack interviews"
+    ],
+    "responses": [
+      "Try the 'AI Mock Interview' module \u2014 you can practice Technical, HR, or Coding rounds and get instant scoring with feedback. Also check 'Coding Tests' to sharpen your problem-solving speed."
+    ]
+  },
+  {
+    "intent": "placement_prediction",
+    "patterns": [
+      "placement",
+      "readiness",
+      "will i get placed",
+      "prediction",
+      "chances",
+      "what is my readiness score",
+      "am i ready for placements",
+      "will i get a job",
+      "my placement chances",
+      "how likely am i to be placed",
+      "why is my score low",
+      "what is affecting my readiness"
+    ],
+    "responses": [
+      "Head to 'Readiness Prediction' \u2014 it runs your profile through the ML model and explains, using SHAP, exactly which factors are helping or hurting your placement chances."
+    ]
+  },
+  {
+    "intent": "job_search",
+    "patterns": [
+      "job",
+      "internship",
+      "linkedin",
+      "github",
+      "opening",
+      "vacancy",
+      "hiring",
+      "show me jobs",
+      "find internships for me",
+      "which companies are hiring",
+      "jobs for full stack developer",
+      "apply for jobs",
+      "job openings for freshers",
+      "which role suits me",
+      "best job for my skills"
+    ],
+    "responses": [
+      "Check 'Job Recommendations' for role matches based on your skills, and 'LinkedIn & GitHub Opportunities' for curated external job and internship links matched to your profile."
+    ]
+  },
+  {
+    "intent": "learning_resources",
+    "patterns": [
+      "course",
+      "learn",
+      "certification",
+      "tutorial",
+      "study material",
+      "learning portal",
+      "where can i learn react",
+      "best course for python",
+      "resources to learn sql",
+      "youtube tutorial for java",
+      "suggest certifications",
+      "how to learn docker",
+      "notes for data structures"
+    ],
+    "responses": [
+      "Visit 'Learning Portals' for a curated list of MOOC platforms, coding practice sites, and certification providers. Your 'Career Roadmap' page also recommends specific courses for your missing skills."
+    ]
+  },
+  {
+    "intent": "semester_progress",
+    "patterns": [
+      "semester",
+      "cgpa trend",
+      "progress",
+      "improvement",
+      "grades",
+      "how are my grades",
+      "my semester performance",
+      "show cgpa progress",
+      "is my sgpa improving",
+      "academic progress"
+    ],
+    "responses": [
+      "Log your semester-wise CGPA and attendance under 'Semester Progress' \u2014 you'll see a trend chart of your academic improvement over time, which also feeds into your placement readiness score."
+    ]
+  },
+  {
+    "intent": "thanks",
+    "patterns": [
+      "thanks",
+      "thank you",
+      "great",
+      "helpful",
+      "thanks a lot",
+      "thank you so much",
+      "that helped",
+      "awesome",
+      "ok thanks",
+      "nice"
+    ],
+    "responses": [
+      "You're welcome! Good luck with your placement preparation."
+    ]
+  },
+  {
+    "intent": "fallback",
+    "patterns": [],
+    "responses": [
+      "I can help with resumes, skill gaps, interview prep, placement predictions, job/internship search, learning resources, or your semester progress. Could you rephrase your question around one of these?"
+    ]
+  }
+]
